@@ -19,7 +19,7 @@ async def start(message: Message):
 async def video_download(message: Message):
     url = message.text
     ydl_opts = {
-        'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+        'format': 'best[ext=mp4]',
         'outtmpl': 'video.%(ext)s',
     }
 
