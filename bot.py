@@ -59,7 +59,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-<<<<<<< HEAD
-=======
-
->>>>>>> 4a291fc (fix vid format bug)
